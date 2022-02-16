@@ -20,7 +20,7 @@
 
     <md-menu md-direction="top-start">
       <router-link to="/calculating">
-      <md-button md-menu-trigger>Calculating</md-button>
+      <md-button md-menu-trigger>College</md-button>
       </router-link>
     </md-menu>
 
@@ -39,6 +39,12 @@
     <md-menu md-direction="top-end">
       <router-link to="/stocks">
         <md-button md-menu-trigger>Stocks</md-button>
+      </router-link>
+    </md-menu>
+
+    <md-menu md-direction="top-end">
+      <router-link to="/social">
+        <md-button md-menu-trigger>Social</md-button>
       </router-link>
     </md-menu>
   </div>

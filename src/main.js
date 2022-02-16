@@ -14,6 +14,8 @@ import Calculating from './components/calculating'
 import RealEstate from './components/realEstate'
 import Business from './components/business'
 import Stocks from './components/stocks'
+import Social from './components/social'
+
 
 
 Vue.config.productionTip = false
@@ -26,6 +28,7 @@ const router = new VueRouter({
     { path: '/realEstate', name: 'realEstate', component: RealEstate },
     { path: '/business', name: 'business', component: Business },
     { path: '/stocks', name: 'stocks', component: Stocks },
+    { path: '/social', name: 'social', component: Social },
     { path: '/', name: 'saving', component: Saving },
     { path: '*', redirect: '/' }
   ]
