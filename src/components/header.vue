@@ -19,7 +19,7 @@
     </md-menu>
 
     <md-menu md-direction="top-start">
-      <router-link to="/calculating">
+      <router-link to="/college">
       <md-button md-menu-trigger>College</md-button>
       </router-link>
     </md-menu>

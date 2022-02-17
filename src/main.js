@@ -10,7 +10,7 @@ Vue.use(VueRouter)
 
 import Saving from './components/saving'
 import Investing from './components/investing'
-import Calculating from './components/calculating'
+import College from './components/college'
 import RealEstate from './components/realEstate'
 import Business from './components/business'
 import Stocks from './components/stocks'
@@ -24,7 +24,7 @@ const router = new VueRouter({
   routes: [
     { path: '/saving', name: 'saving', component: Saving },
     { path: '/investing', name: 'investing', component: Investing },
-    { path: '/calculating', name: 'calculating', component: Calculating },
+    { path: '/college', name: 'college', component: College },
     { path: '/realEstate', name: 'realEstate', component: RealEstate },
     { path: '/business', name: 'business', component: Business },
     { path: '/stocks', name: 'stocks', component: Stocks },
